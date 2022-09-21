@@ -22,7 +22,7 @@ public class ClientRPC {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) throws XmlRpcException, MalformedURLException, SQLException {
-
+//Hernandez Ruiz Brandon Isai
         XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
         config.setServerURL(new URL("http://localhost:1200"));
         XmlRpcClient client = new XmlRpcClient();
